@@ -114,7 +114,7 @@ public class BookingConsole(BookingService service)
     {
         if (bookings.Count == 0)
         {
-            Console.WriteLine("No bookings were found.");
+            Console.WriteLine("There are currently no bookings.");
             return;
         }
 
